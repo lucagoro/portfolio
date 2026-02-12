@@ -6,22 +6,16 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Sistema de Microservicios",
-      description: "Arquitectura de microservicios desarrollada en equipo de 5 personas, implementando servicios independientes con comunicación REST.",
-      tech: ["Java", "Spring Boot", "MongoDB", "MySQL", "Docker", "JWT"],
-      link: "#"
+      title: "Gestión Gimnasio",
+      description: "Aplicación full-stack para la administración y gestión de estudiantes, pagos y gastos con interfaz intuitiva y backend robusto.",
+      tech: ["React", "Tailwind CSS", "Java", "Spring Boot", "PostgreSQL"],
+      link: "https://gym-system-front-pro.vercel.app"
     },
     {
-      title: "Gestión de Alumnos",
-      description: "Aplicación full-stack para la administración y gestión de estudiantes con interfaz intuitiva y backend robusto.",
-      tech: ["React", "CSS", "Java", "Spring Boot", "PostgreSQL"],
-      link: "#"
-    },
-    {
-      title: "Portal de Juegos",
-      description: "Página web interactiva de juegos desarrollada con tecnologías web fundamentales.",
+      title: "Web Interactiva con Animaciones CSS",
+      description: "Sitio web dinámico e interactivo desarrollado con JavaScript vanilla y HTML, destacando por sus animaciones CSS avanzadas y experiencia de usuario fluida.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "#"
+      link: "https://lucagoro.github.io/Tp-Interfaces/TP5/index.html"
     }
   ];
 
@@ -114,7 +108,7 @@ export default function Portfolio() {
           </div>
 
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
-            Desarrollador full-stack con más de dos años de experiencia creando aplicaciones web utilizando React, Angular, Java, Spring Boot, JavaScript, Express y Node.js
+            Desarrollador full-stack con más de un año de experiencia creando aplicaciones web utilizando React, Angular, Java, Spring Boot, JavaScript, Express y Node.js
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap">
@@ -173,7 +167,7 @@ export default function Portfolio() {
                 <p className="text-gray-400">Freelance</p>
               </div>
               <div className="px-4 py-2 bg-blue-600/20 border border-blue-500 rounded-lg">
-                <span className="text-blue-300 font-semibold">2024 - Actualidad</span>
+                <span className="text-blue-300 font-semibold">2025 - Actualidad</span>
               </div>
             </div>
 
