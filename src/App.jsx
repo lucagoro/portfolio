@@ -16,6 +16,12 @@ export default function Portfolio() {
       description: "Sitio web dinámico e interactivo desarrollado con JavaScript vanilla y HTML, destacando por sus animaciones CSS avanzadas y experiencia de usuario fluida.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://lucagoro.github.io/Tp-Interfaces/TP5/index.html"
+    },
+    {
+      title: "Backend para Sistema de Paradas de Monopatines Eléctricos",
+      description: "Backend desarrollado con Java y Spring Boot para gestionar las paradas de monopatines eléctricos, incluyendo autenticación, gestión de usuarios y control de paradas.",
+      tech: ["Java", "Spring Boot", "MySQL", "NoSQL", "APIs REST"],
+      link: "https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web.git"
     }
   ];
 
