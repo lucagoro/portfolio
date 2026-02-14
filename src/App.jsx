@@ -9,7 +9,7 @@ export default function Portfolio() {
       title: "Gestión Gimnasio",
       description: "Aplicación full-stack para la administración y gestión de estudiantes, pagos y gastos con interfaz intuitiva y backend robusto.",
       tech: ["React", "Tailwind CSS", "Java", "Spring Boot", "PostgreSQL"],
-      link: "https://gym-system-front-pro.vercel.app"
+      link: "https://github.com/lucagoro/gym-system-front-pro.git"
     },
     {
       title: "Web Interactiva con Animaciones CSS",
