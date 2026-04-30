@@ -30,7 +30,7 @@ Módulos claves:
 • Dashboard: Visualización rápida de alumnos y estados de pago críticos (Al día, Vencidos)
 • Gestión de Datos: Listado de alumnos con ABM completo, buscador integrado y paginador optimizado
 • Control de Pagos: Registro de transacciones con historial detallado y alertas de vencimiento
-• Notificaciones: Sistema de alertas mediante WhatsApp para seguimiento de cuotas`,note:"Para observar el sistema, ingresar con Usuario: 'invitado.01' y Contraseña: 'inv01'",tech:["React","Tailwind CSS","Java","Spring Boot","PostgreSQL"],link:"https://wolf-team-psi.vercel.app/login"},{title:"App de Notas",description:`Aplicación de productividad desarrollada bajo el stack MERN (MongoDB, Express, React, Node.js) con enfoque en experiencia de usuario fluida y persistencia de datos.
+• Notificaciones: Sistema de alertas mediante WhatsApp para seguimiento de cuotas`,note:"Para observar el sistema, ingresar con Usuario: 'invitado.01' y Contraseña: 'inv01'",tech:["React","Tailwind CSS","Java","Spring Boot","PostgreSQL"],link:"https://wolf-team-psi.vercel.app"},{title:"App de Notas",description:`Aplicación de productividad desarrollada bajo el stack MERN (MongoDB, Express, React, Node.js) con enfoque en experiencia de usuario fluida y persistencia de datos.
 
 Características destacadas:
 • Operaciones CRUD en tiempo real con sincronización instantánea
