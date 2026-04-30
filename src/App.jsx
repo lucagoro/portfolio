@@ -55,7 +55,7 @@ Módulos claves:
 • Notificaciones: Sistema de alertas mediante WhatsApp para seguimiento de cuotas`,
       note: "Para observar el sistema, ingresar con Usuario: 'invitado.01' y Contraseña: 'inv01'",
       tech: ["React", "Tailwind CSS", "Java", "Spring Boot", "PostgreSQL"],
-      link: "https://wolf-team-psi.vercel.app/login"
+      link: "https://wolf-team-psi.vercel.app"
     },
     {
       title: "App de Notas",
