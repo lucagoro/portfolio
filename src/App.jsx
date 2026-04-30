@@ -48,7 +48,7 @@ Funcionalidades principales:
       title: "Gestión Gimnasio MMA",
       description: `Aplicación Mobile-First para administración ágil y operativa de gimnasio de MMA. Diseño responsive optimizado para dispositivos móviles con backend robusto y seguridad empresarial.
 
-Módulos operativos:
+Módulos claves:
 • Dashboard: Visualización rápida de alumnos y estados de pago críticos (Al día, Vencidos)
 • Gestión de Datos: Listado de alumnos con ABM completo, buscador integrado y paginador optimizado
 • Control de Pagos: Registro de transacciones con historial detallado y alertas de vencimiento
