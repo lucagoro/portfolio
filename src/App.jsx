@@ -7,21 +7,69 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Gestión Gimnasio",
-      description: "Aplicación full-stack para la administración y gestión de estudiantes, pagos y gastos con interfaz intuitiva y backend robusto.",
+      description: `SaaS Multi-tenant para la gestión integral de alumnos, pagos y finanzas, desarrollado con una arquitectura robusta y escalable. Implementa seguridad avanzada con Spring Security y JWT, y un sistema de roles (Admin, Empleado e Invitado) para garantizar la integridad de la información y permisos específicos.
+
+Módulos principales:
+• Panel de Control: Visualización del total de alumnos, estados de pago (Vencidos, Al día, Sin pagos), alertas del sistema, recaudación mensual y gráfico de registro de nuevos alumnos.
+• Gestión de Alumnos: Listado con paginación, ABM completo, buscador avanzado y notificaciones de pagos vencidos.
+• Gestión de Pagos y WhatsApp: Historial de transacciones y notificaciones semi-automáticas para alertar sobre cuotas vencidas.
+• Control Financiero: ABM de planes de entrenamiento y registro de gastos para seguimiento completo de caja.`,
+      note: "Para observar el sistema, ingresar con Usuario: 'guestUser' y Contraseña: 'guest1414'",
       tech: ["React", "Tailwind CSS", "Java", "Spring Boot", "PostgreSQL"],
-      link: "https://github.com/lucagoro/gym-system-front-pro.git"
+      link: "https://gymhubapp.com/login"
     },
     {
       title: "Web Interactiva con Animaciones CSS",
-      description: "Sitio web dinámico e interactivo desarrollado con JavaScript vanilla y HTML, destacando por sus animaciones CSS avanzadas y experiencia de usuario fluida.",
+      description: `Sitio web dinámico e interactivo desarrollado con JavaScript vanilla y HTML, destacando por sus animaciones CSS avanzadas y experiencia de usuario fluida.
+
+Características principales:
+• Diseño responsive con animaciones suaves y transiciones personalizadas
+• Videojuegos integrados: Peg Solitaire (Naruto Shippuden), Flappy Bat (Dark City), Blocka
+• Interfaz intuitiva y visualmente atractiva
+• Optimizado para performance y compatibilidad cross-browser`,
+      note: "",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://lucagoro.github.io/Tp-Interfaces/TP5/index.html"
     },
     {
       title: "Backend para Sistema de Paradas de Monopatines Eléctricos",
-      description: "Backend desarrollado con Java y Spring Boot para gestionar las paradas de monopatines eléctricos, incluyendo autenticación, gestión de usuarios y control de paradas.",
+      description: `Backend robusto desarrollado con Java y Spring Boot para gestionar integralmente las paradas de monopatines eléctricos.
+
+Funcionalidades principales:
+• Sistema de autenticación y gestión de usuarios con seguridad avanzada
+• APIs REST para control de paradas y disponibilidad de vehículos
+• Gestión de datos con persistencia en base de datos relacional y NoSQL
+• Arquitectura escalable siguiendo patrones de diseño profesionales`,
+      note: "",
       tech: ["Java", "Spring Boot", "MySQL", "NoSQL", "APIs REST"],
       link: "https://github.com/ValentinBulnes/Grupo-18-Arquitecturas-Web.git"
+    },
+    {
+      title: "Gestión Gimnasio MMA",
+      description: `Aplicación Mobile-First para administración ágil y operativa de gimnasio de MMA. Diseño responsive optimizado para dispositivos móviles con backend robusto y seguridad empresarial.
+
+Módulos operativos:
+• Dashboard: Visualización rápida de alumnos y estados de pago críticos (Al día, Vencidos)
+• Gestión de Datos: Listado de alumnos con ABM completo, buscador integrado y paginador optimizado
+• Control de Pagos: Registro de transacciones con historial detallado y alertas de vencimiento
+• Notificaciones: Sistema de alertas mediante WhatsApp para seguimiento de cuotas`,
+      note: "Para observar el sistema, ingresar con Usuario: 'invitado.01' y Contraseña: 'inv01'",
+      tech: ["React", "Tailwind CSS", "Java", "Spring Boot", "PostgreSQL"],
+      link: "https://wolf-team-psi.vercel.app/login"
+    },
+    {
+      title: "App de Notas",
+      description: `Aplicación de productividad desarrollada bajo el stack MERN (MongoDB, Express, React, Node.js) con enfoque en experiencia de usuario fluida y persistencia de datos.
+
+Características destacadas:
+• Operaciones CRUD en tiempo real con sincronización instantánea
+• Persistencia de datos mediante Mongoose con validaciones robustas
+• Interfaz minimalista construida con Tailwind CSS para máxima usabilidad
+• Arquitectura backend escalable y modular
+• Organización intuitiva de información personal`,
+      note: "",
+      tech: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Mongoose"],
+      link: "https://note-front-ten.vercel.app"
     }
   ];
 
@@ -225,7 +273,8 @@ export default function Portfolio() {
                 
                 <div className="relative">
                   <h3 className="text-xl font-bold mb-3 text-blue-300">{project.title}</h3>
-                  <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
+                  <p className="text-gray-300 mb-4 leading-relaxed whitespace-pre-wrap">{project.description}</p>
+                  <p className="text-sm text-gray-400 italic pb-1">{project.note}</p>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, i) => (
